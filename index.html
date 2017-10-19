@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dynamic Responsive Table</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="src/assets/css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <table class="table-responsive">
+                    <thead>
+                    <tr>
+                        <th data-column-name="Your Select"></th>
+                        <th data-column-name="First Name">First Name</th>
+                        <th data-column-name="Last Name">Last Name</th>
+                        <th data-column-name="Job Title">Job Title</th>
+                        <th data-column-name="Favorite Color">Favorite Color</th>
+                        <th data-column-name="Wars of Trek?">Wars of Trek?</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><input class="radio" type="radio"></td>
+                        <td>James</td>
+                        <td>Matman</td>
+                        <td>Chief Sandwich Eater</td>
+                        <td>Red</td>
+                        <td>Blue</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio"></td>
+                        <td>The</td>
+                        <td>Tick</td>
+                        <td>Crimefighter Sorta</td>
+                        <td>Blue</td>
+                        <td>Blue</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="src/assets/js/respond.src.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="src/assets/js/script.js"></script>
+    </body>
+</html>
