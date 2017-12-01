@@ -1,0 +1,23 @@
+{
+  "name": "dynamic_responsive_table",
+  "version": "1.0.0",
+  "description": "Dynamic Responsive Table",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarkinucerler/dynamic_responsive_table.git"
+  },
+  "author": "Yarkın ÜÇERLER <yarkinucerler@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yarkinucerler/dynamic_responsive_table/issues"
+  },
+  "homepage": "https://github.com/yarkinucerler/dynamic_responsive_table#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
